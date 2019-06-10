@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:500&display=swap');
 
-.{
+body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #2940b1;
+    background: linear-gradient(to bottom, #ccccff, #6666ff, #0000cc );
 }
 
 li, a, button {
@@ -12,7 +12,7 @@ li, a, button {
     font-weight: 500;
     font-size: 16px;
     /*color: #edf0f1;*/
-    color: black
+    color: black;
     text-decoration: none;
 
 }
@@ -53,7 +53,7 @@ header {
 button {
     margin-left: 20px;
     padding: 9px 25px;
-    background-color: rgba(0,136,169,1);
+    background-color: rgb(210, 227, 231);
     border: none;
     border-radius: 50px;
     cursor: pointer;
